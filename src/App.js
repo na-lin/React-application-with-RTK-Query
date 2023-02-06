@@ -1,5 +1,9 @@
 import React from "react";
-
+import UserList from "./components/UserList";
 export default function App() {
-  return <div>Start to build react with RTK Query</div>;
+  return (
+    <div className="container mx-auto p-6">
+      <UserList />
+    </div>
+  );
 }

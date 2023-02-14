@@ -1,4 +1,44 @@
 {
-  "albums": [],
-  "photos": []
+  "users": [
+    {
+      "id": 1,
+      "name": "Myra"
+    },
+    {
+      "name": "Elsie Price",
+      "id": 2
+    }
+  ],
+  "albums": [
+    {
+      "title": "Small Metal Pants",
+      "userId": 1,
+      "id": 11
+    },
+    {
+      "title": "Fantastic Rubber Towels",
+      "userId": 2,
+      "id": 24
+    },
+    {
+      "title": "Handcrafted Concrete Fish",
+      "userId": 1,
+      "id": 25
+    },
+    {
+      "title": "Incredible Cotton Pants",
+      "userId": 2,
+      "id": 26
+    },
+    {
+      "title": "Rustic Plastic Pants",
+      "userId": 1,
+      "id": 27
+    },
+    {
+      "userId": 1,
+      "title": "Unbranded Soft Gloves",
+      "id": 28
+    }
+  ]
 }

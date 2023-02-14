@@ -7,10 +7,6 @@
     {
       "name": "Elsie Price",
       "id": 2
-    },
-    {
-      "name": "Harold Strosin",
-      "id": 3
     }
   ],
   "albums": [
@@ -18,11 +14,6 @@
       "title": "Small Metal Pants",
       "userId": 1,
       "id": 11
-    },
-    {
-      "title": "Bespoke Soft Table",
-      "userId": 3,
-      "id": 23
     },
     {
       "title": "Fantastic Rubber Towels",
@@ -43,6 +34,11 @@
       "title": "Rustic Plastic Pants",
       "userId": 1,
       "id": 27
+    },
+    {
+      "userId": 1,
+      "title": "Unbranded Soft Gloves",
+      "id": 28
     }
   ]
 }

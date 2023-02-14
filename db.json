@@ -1,4 +1,48 @@
 {
-  "albums": [],
-  "photos": []
+  "users": [
+    {
+      "id": 1,
+      "name": "Myra"
+    },
+    {
+      "name": "Elsie Price",
+      "id": 3
+    },
+    {
+      "name": "Harold Strosin",
+      "id": 4
+    }
+  ],
+  "albums": [
+    {
+      "title": "Small Metal Pants",
+      "userId": 1,
+      "id": 11
+    },
+    {
+      "title": "Bespoke Soft Table",
+      "userId": 3,
+      "id": 23
+    },
+    {
+      "title": "Fantastic Rubber Towels",
+      "userId": 1,
+      "id": 24
+    },
+    {
+      "title": "Handcrafted Concrete Fish",
+      "userId": 1,
+      "id": 25
+    },
+    {
+      "title": "Incredible Cotton Pants",
+      "userId": 1,
+      "id": 26
+    },
+    {
+      "title": "Rustic Plastic Pants",
+      "userId": 1,
+      "id": 27
+    }
+  ]
 }

@@ -6,11 +6,11 @@
     },
     {
       "name": "Elsie Price",
-      "id": 3
+      "id": 2
     },
     {
       "name": "Harold Strosin",
-      "id": 4
+      "id": 3
     }
   ],
   "albums": [
@@ -26,7 +26,7 @@
     },
     {
       "title": "Fantastic Rubber Towels",
-      "userId": 1,
+      "userId": 2,
       "id": 24
     },
     {
@@ -36,7 +36,7 @@
     },
     {
       "title": "Incredible Cotton Pants",
-      "userId": 1,
+      "userId": 2,
       "id": 26
     },
     {

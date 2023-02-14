@@ -7,7 +7,21 @@ const albumApi = createApi({
   }),
   endpoints(buidler) {
     return {
-      fetch,
+      fetchAlbums: buidler.query({
+        // Route: /albums?userId=1
+        query: (user) => {
+          return {
+            url: "/albums",
+            method: "GET",
+            params: {
+              userId: user.id,
+            },
+          };
+        },
+      }),
     };
   },
 });
+
+export { albumApi };
+export const { useFetchAlbumsQuery } = albumApi;

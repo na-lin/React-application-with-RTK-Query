@@ -21,4 +21,4 @@ setupListeners(store.dispatch);
 export default store;
 
 export { useFetchUsersQuery } from "./api/userApi";
-export { useFetchAlbumsQuery } from "./api/albumApi";
+export { useFetchAlbumsQuery, useAddAlbumsMutation } from "./api/albumApi";

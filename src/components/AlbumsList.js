@@ -1,12 +1,15 @@
 import React from "react";
 import Button from "./Button";
 
-import { useFetchAlbumsQuery } from "../store";
+import { useFetchAlbumsQuery, useAddAlbumsMutation } from "../store";
 
 export default function AlbumsList({ user }) {
   const { data, isFetching, error } = useFetchAlbumsQuery(user);
+  const [addAlbums, results] = useAddAlbumsMutation();
 
-  console.log(data, isFetching, error);
+  const handleAddAlbums = () => {
+    addAlbums(user);
+  };
 
   let content;
   if (isFetching) {
@@ -27,7 +30,7 @@ export default function AlbumsList({ user }) {
     <div>
       <div className="m-2 flex flex-row items-center justify-between">
         <h3 className="text-lg font-bold">Albums</h3>
-        <Button>+Add Album</Button>
+        <Button onClick={handleAddAlbums}>+Add Album</Button>
       </div>
       <div>{content}</div>
     </div>

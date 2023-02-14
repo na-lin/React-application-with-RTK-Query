@@ -10,7 +10,7 @@ const userApi = createApi({
       fetchUsers: builder.query({
         query: () => {
           return {
-            url: "/user",
+            url: "/users",
             method: "GET",
           };
         },

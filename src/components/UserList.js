@@ -19,7 +19,7 @@ export default function UserList() {
 
   return (
     <div>
-      <div className="flex flex-row justify-between">
+      <div className="flex flex-row justify-between mb-4">
         <h1 className="m-2 text-xl">Users</h1>
         <Button>+ Add User</Button>
       </div>

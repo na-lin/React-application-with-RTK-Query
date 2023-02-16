@@ -14,4 +14,5 @@ RTK Query is a powerful data fetching and caching tool for the Redux toolkit.  T
 - `npm run start:server` to start the server which runs on port 3005, you can customize the port in the package.json file  LINE 23. 
 
 ### Tutorial Artical
+Get more detail about how to learn RTK Query with this repository. 
 https://medium.com/@nalin-dev/tutorial-for-react-with-rtk-query-299bf3d2bf62
